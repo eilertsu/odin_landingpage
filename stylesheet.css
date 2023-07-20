@@ -5,6 +5,7 @@
 
 .darkbg{
     background-color: #1f2937;
+    color: #F9FAF8;
 }
 
 .hero_main_text{
@@ -23,8 +24,14 @@
     color: #F9FAF8;
 }
 
-.blue_accent{
-    color: #488bf6;
+.cta{
+    background-color: #488bf6;
+}
+button{
+    border: 0px;
+    border-radius: 5px;
+    background-color: #488bf6;
+    color: #F9FAF8;
 }
 
 .info_header{
@@ -32,7 +39,6 @@
     font-style: extra-bold;
     color: #1f2937;
 }
-
 
 .quote{
     background-color: #E5e7eb;

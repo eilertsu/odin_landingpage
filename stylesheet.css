@@ -1,13 +1,28 @@
+/*general styling*/
 * {
     margin: 0px;
     font-family: Helvetica;
 }
-
 div{
     padding-inline: 200px;
 }
+.darkbg{
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+button{
+    border: 0px;
+    border-radius: 5px;
+    background-color: #488bf6;
+    color: #F9FAF8;
+}
+footer{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
 
-
+/*general styling relating header*/
 header{
     display: flex;
     flex-direction: column;
@@ -33,9 +48,10 @@ header{
     padding-inline: 20px;
 }
 
-.darkbg{
-    background-color: #1f2937;
-    color: #F9FAF8;
+
+/* general styling for hero*/
+.hero{
+    display: flex;
 }
 
 .hero_main_text{
@@ -49,38 +65,19 @@ header{
     color: #F9FAF8;
 }
 
-
-
-.cta{
-    display: flex;
-    background-color: #488bf6;
-    color: #F9FAF8;
-}
-button{
-    border: 0px;
-    border-radius: 5px;
-    background-color: #488bf6;
-    color: #F9FAF8;
-}
-
-.info_header{
-    font-size: 36px;
-    font-style: extra-bold;
-    color: #1f2937;
-}
-
-.quote{
-    background-color: #E5e7eb;
-    font-size: 36px;
-    font-style: "light italic";
-    color: #1f2937;
-}
-
 .hero img{
     height: 400px;
     width: 600px;
 }
 
+
+
+/* general styling for info-section */
+.info_header{
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1f2937;
+}
 .info_img img{
     width: 200px;
     height: 200px;
@@ -89,8 +86,19 @@ button{
     object-fit: cover;
 }
 
-footer{
-    padding: 30px;
+
+/*general styling for quote section*/
+.quote{
+    background-color: #E5e7eb;
+    font-size: 36px;
+    font-style: "light italic";
+    color: #1f2937;
+}
+
+
+/* general styling for call to action*/
+.cta{
     display: flex;
-    justify-content: center;
+    background-color: #488bf6;
+    color: #F9FAF8;
 }

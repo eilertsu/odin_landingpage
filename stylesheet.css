@@ -4,19 +4,19 @@
 }
 
 div{
-    padding-inline: 100px;
+    padding-inline: 200px;
 }
 
 
 header{
     display: flex;
     flex-direction: column;
-    flex-grow: stretch;
-    
+    flex-grow: stretch; 
 }
 
 .header_menu{
     display: flex;
+    padding-block: 20px;
 }
 
 .header_menu > h1{

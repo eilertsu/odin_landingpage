@@ -72,6 +72,13 @@ header{
     width: 600px;
 }
 
+.hero button{
+    height: 35px;
+    width: 120px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
 
 
 /* general styling for info-section */

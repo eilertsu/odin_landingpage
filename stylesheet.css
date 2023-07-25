@@ -5,6 +5,7 @@
 }
 div{
     padding-inline: 200px;
+    padding-block: 50px;
 }
 .darkbg{
     background-color: #1f2937;
@@ -52,6 +53,7 @@ header{
 /* general styling for hero*/
 .hero{
     display: flex;
+    flex-direction: row;
 }
 
 .hero_main_text{
@@ -102,3 +104,4 @@ header{
     background-color: #488bf6;
     color: #F9FAF8;
 }
+

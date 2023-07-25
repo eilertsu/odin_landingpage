@@ -16,6 +16,9 @@ button{
     border-radius: 5px;
     background-color: #488bf6;
     color: #F9FAF8;
+    height: 35px;
+    width: 120px;
+    font-size: 18px;
 }
 footer{
     padding: 30px;
@@ -68,14 +71,15 @@ header{
 }
 
 .hero img{
-    height: 400px;
+    height: 300px;
     width: 600px;
+    object-fit: cover;
 }
 
 .hero button{
     height: 35px;
     width: 120px;
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 18px;
 }
 
